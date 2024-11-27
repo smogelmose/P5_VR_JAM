@@ -63,13 +63,13 @@ MonoBehaviour:
         z: 0.25
     - stateName: hovered
       animationStateStartValue:
-        x: 0.33
-        y: 0.33
-        z: 0.33
+        x: 0.15
+        y: 0.15
+        z: 0.15
       animationStateEndValue:
-        x: 0.33
-        y: 0.33
-        z: 0.33
+        x: 0.15
+        y: 0.15
+        z: 0.15
     - stateName: hoveredPriority
       animationStateStartValue:
         x: 0.25
