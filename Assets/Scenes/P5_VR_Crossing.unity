@@ -617,7 +617,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4917032449352002, guid: a60988b24f8ff094ba511054edf48a9d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -10.148697
+      value: -10.49
       objectReference: {fileID: 0}
     - target: {fileID: 4917032449352002, guid: a60988b24f8ff094ba511054edf48a9d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9833,20 +9833,6 @@ MonoBehaviour:
   PhaseDelay: 1
   YellowBlinkFreq: 2
   PhaseList:
-  - Name: Phase NS
-    PhaseStartTime: 1.5
-    PhaseActiveTime: 5
-    PhaseEndTime: 2
-    TrafficLights:
-    - {fileID: 1729734444}
-    - {fileID: 475608900}
-  - Name: Phase NS Left
-    PhaseStartTime: 1.5
-    PhaseActiveTime: 5
-    PhaseEndTime: 2
-    TrafficLights:
-    - {fileID: 1724307861}
-    - {fileID: 50712964}
   - Name: Phase WE
     PhaseStartTime: 1.5
     PhaseActiveTime: 5
@@ -9861,6 +9847,20 @@ MonoBehaviour:
     TrafficLights:
     - {fileID: 570936663}
     - {fileID: 1962750944}
+  - Name: Phase NS
+    PhaseStartTime: 1.5
+    PhaseActiveTime: 5
+    PhaseEndTime: 2
+    TrafficLights:
+    - {fileID: 1729734444}
+    - {fileID: 475608900}
+  - Name: Phase NS Left
+    PhaseStartTime: 1.5
+    PhaseActiveTime: 5
+    PhaseEndTime: 2
+    TrafficLights:
+    - {fileID: 1724307861}
+    - {fileID: 50712964}
   InitialProgram: 1
 --- !u!4 &1817810683
 Transform:
